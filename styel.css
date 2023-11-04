@@ -1,0 +1,19 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: cornflowerblue;
+  border: 2px solid black;
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in; */
+  transition: all 2s ease-in 1s;
+}
+
+div:hover {
+  background-color: red;
+  color: aliceblue;
+  font-size: 20px;
+}
+div:active {
+  background: pink;
+}
